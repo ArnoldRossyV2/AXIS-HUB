@@ -18,8 +18,8 @@ for i,v in pairs(keys) do
     game.Players.LocalPlayer:Kick("Not a valid key!")
     else
         if v == _G.Key then
-            --Whitelisted!
-            print("Successfully whitelisted!")
+            wait (10)
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ArnoldRossyV2/AXIS-HUB/Main/All"))()
             keyCheck = _G.Key
             keys = ""
         else
