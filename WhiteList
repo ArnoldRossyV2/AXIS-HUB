@@ -17,7 +17,7 @@ for i,v in pairs(keys) do
     if counter == #keys then
     --not whitelisted!
     keys = ""
-    game.Players.LocalPlayer:Kick("มึงใส่คีย์ผิดไอ้ควาย")
+    game.Players.LocalPlayer:Kick("มึงใส่คีย์ผิดนะไอสัส!")
     else
         if v == _G.Key then
             wait (5)
