@@ -1,12 +1,10 @@
-_G.Key = "CnfYUTlGjktoPhkdRtyQp"
-
 local keys = {
-    "CnfYUTlGjktoPhkdRtyQp",
-    "",
-    "",
-    "",
-    "",
-    "Kuy",
+    "Ycex6PAB",
+    "9Ts8r2ev",
+    "ez7Y8glE",
+    "zwB96Y0a",
+    "giP5EIJv",
+    "i love u",
 }
 
 local counter = 1
@@ -15,11 +13,11 @@ for i,v in pairs(keys) do
     if counter == #keys then
     --not whitelisted!
     keys = ""
-    game.Players.LocalPlayer:Kick("Not a valid key!")
+    game.Players.LocalPlayer:Kick("กูรู้ว่ามึงไม่ใส่คีย์อย่าปัญญาอ่อน")
     else
         if v == _G.Key then
-            wait (10)
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ArnoldRossyV2/AXIS-HUB/Main/All"))()
+            --Whitelisted!
+            print("waiting for check key . . .")
             keyCheck = _G.Key
             keys = ""
         else
