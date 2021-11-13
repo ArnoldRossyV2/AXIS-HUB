@@ -1,10 +1,14 @@
 local keys = {
-    "Ycex6PAB",
-    "9Ts8r2ev",
-    "ez7Y8glE",
-    "zwB96Y0a",
-    "giP5EIJv",
-    "i love u",
+    "6643D83F5489DCEF",
+    "6F9C2641A41438A9",
+    "84EA2E7A71EC9765",
+    "827ACDFED1FA9378",
+    "C18BDDEDE234CE11",
+    "FEA1EADABC519AC6",
+    "9599C25871DD6F2D",
+    "AD4B26EC75613C4D",
+    "862D1B5E92DC99A9",
+    "26FA359F17E4D981",
 }
 
 local counter = 1
