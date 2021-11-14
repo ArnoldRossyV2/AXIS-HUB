@@ -17,11 +17,9 @@ for i,v in pairs(keys) do
     if counter == #keys then
     --not whitelisted!
     keys = ""
-    game.Players.LocalPlayer:Kick("มึงใส่คีย์ผิดนะไอสัส!")
+    game.Players.LocalPlayer:Kick("กูรู้ว่ามึงไม่ใส่คีย์อย่าปัญญาอ่อน")
     else
         if v == _G.Key then
-            wait (5)
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ArnoldRossyV2/AXIS-HUB/Main/All"))()
             keyCheck = _G.Key
             keys = ""
         else
