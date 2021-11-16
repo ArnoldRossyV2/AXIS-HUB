@@ -21,7 +21,7 @@ for i,v in pairs(keys) do
     else
         if v == _G.Key then
         wait(3)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ArnoldRossyV2/AXIS-HUB/Main/All%22"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ArnoldRossyV2/AXIS-HUB/Main/All"))()
             keyCheck = _G.Key
             keys = ""
         else
