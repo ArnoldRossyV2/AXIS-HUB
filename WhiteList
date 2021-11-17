@@ -20,7 +20,7 @@ for i,v in pairs(keys) do
     game.Players.LocalPlayer:Kick("กูรู้ว่ามึงไม่ใส่คีย์อย่าปัญญาอ่อน")
     else
         if v == _G.Key then
-        wait(3)
+        wait()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ArnoldRossyV2/AXIS-HUB/Main/All"))()
             keyCheck = _G.Key
             keys = ""
