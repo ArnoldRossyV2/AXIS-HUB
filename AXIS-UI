@@ -68,7 +68,7 @@ function Luxt1.CreateWindow(libName, logoId)
     keybindInfo1.Size = UDim2.new(0, 50, 0, 22)
     keybindInfo1.ZIndex = 2
     keybindInfo1.Font = Enum.Font.GothamSemibold
-    keybindInfo1.Text = "Online"
+    keybindInfo1.Text = "Connect Success"
     keybindInfo1.TextColor3 = Color3.fromRGB(0, 255, 0)
     keybindInfo1.TextSize = 13.000
     keybindInfo1.TextXAlignment = Enum.TextXAlignment.Left
@@ -270,7 +270,7 @@ function Luxt1.CreateWindow(libName, logoId)
         tabLogo.BorderSizePixel = 0
         tabLogo.Size = UDim2.new(0, 25, 0, 25)
         tabLogo.ZIndex = 2
-        tabLogo.Image = "rbxassetid://"..tabId
+        tabLogo.Image = "rbxassetid://7765057474"..tabId
         tabLogo.ImageColor3 = Color3.fromRGB(255, 255, 255)
         --
 
