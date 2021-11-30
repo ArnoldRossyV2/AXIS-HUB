@@ -71,7 +71,7 @@ function Luxt1.CreateWindow(libName, logoId)
     keybindInfo1.Text = "Close"
     keybindInfo1.TextColor3 = Color3.fromRGB(255, 255, 255)
     keybindInfo1.TextSize = 13.000
-    keybindInfo1.TextXAlignment = Enum.TextXAlignment.Left
+    keybindInfo1.TextXAlignment = Enum.TextXAlignment.F1
 
     local UserInputService = game:GetService("UserInputService")
 
@@ -161,7 +161,7 @@ function Luxt1.CreateWindow(libName, logoId)
     hubName.TextColor3 = Color3.fromRGB(153, 255, 238)
     hubName.TextSize = 14.000
     hubName.TextWrapped = true
-    hubName.TextXAlignment = Enum.TextXAlignment.Left
+    hubName.TextXAlignment = Enum.TextXAlignment.F1
 
     tabFrame.Name = "tabFrame"
     tabFrame.Parent = sideHeading
@@ -190,7 +190,7 @@ function Luxt1.CreateWindow(libName, logoId)
     usename.TextColor3 = Color3.fromRGB(103, 172, 161)
     usename.TextSize = 12.000
     usename.TextWrapped = true
-    usename.TextXAlignment = Enum.TextXAlignment.Left
+    usename.TextXAlignment = Enum.TextXAlignment.F1
 
     MainCorner_3.CornerRadius = UDim.new(0, 5)
     MainCorner_3.Name = "MainCorner"
@@ -260,7 +260,7 @@ function Luxt1.CreateWindow(libName, logoId)
         tabBtn.Text = tabText
         tabBtn.TextColor3 = Color3.fromRGB(153, 255, 238)
         tabBtn.TextSize = 14.000
-        tabBtn.TextXAlignment = Enum.TextXAlignment.Left
+        tabBtn.TextXAlignment = Enum.TextXAlignment.F1
 
         tabLogo.Name = "tabLogo"
         tabLogo.Position = UDim2.new(-0.007, 0,0.067, 0)
@@ -386,7 +386,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionName.Text = sectionText
             sectionName.TextColor3 = Color3.fromRGB(153, 255, 238)
             sectionName.TextSize = 14.000
-            sectionName.TextXAlignment = Enum.TextXAlignment.Left
+            sectionName.TextXAlignment = Enum.TextXAlignment.F1
 
             sectionExpannd.Name = "sectionExpannd"
             sectionExpannd.Parent = mainSectionHead
@@ -553,7 +553,7 @@ function Luxt1.CreateWindow(libName, logoId)
                     toggleInfo.Text = toggInfo
                     toggleInfo.TextColor3 = Color3.fromRGB(97, 97, 97)
                     toggleInfo.TextSize = 14.000
-                    toggleInfo.TextXAlignment = Enum.TextXAlignment.Left
+                    toggleInfo.TextXAlignment = Enum.TextXAlignment.F1
 
                     togInList.Name = "togInList"
                     togInList.Parent = toggleFrame
@@ -659,7 +659,7 @@ function Luxt1.CreateWindow(libName, logoId)
                         keybindInfo.Text = keyInfo
                         keybindInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
                         keybindInfo.TextSize = 13.000
-                        keybindInfo.TextXAlignment = Enum.TextXAlignment.Left
+                        keybindInfo.TextXAlignment = Enum.TextXAlignment.F1
 
                         toginPad.Name = "toginPad"
                         toginPad.Parent = keybindFrame
@@ -748,7 +748,7 @@ function Luxt1.CreateWindow(libName, logoId)
                             textboxInfo.Text = infbix
                             textboxInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
                             textboxInfo.TextSize = 13.000
-                            textboxInfo.TextXAlignment = Enum.TextXAlignment.Left
+                            textboxInfo.TextXAlignment = Enum.TextXAlignment.F1
 
                             TextBox.Parent = textboxFrame
                             TextBox.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
@@ -942,7 +942,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                 sliderInfo.Text = slidInfo
                                 sliderInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 sliderInfo.TextSize = 14.000
-                                sliderInfo.TextXAlignment = Enum.TextXAlignment.Left
+                                sliderInfo.TextXAlignment = Enum.TextXAlignment.F1
 
                                 local mouse = game.Players.LocalPlayer:GetMouse()
                                 local uis = game:GetService("UserInputService")
@@ -1065,7 +1065,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                 TextLabel.Text = "  "..creditWho
                                 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 TextLabel.TextSize = 14.000
-                                TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+                                TextLabel.TextXAlignment = Enum.TextXAlignment.F1
 
                                 UICorner.CornerRadius = UDim.new(0, 5)
                                 UICorner.Parent = TextLabel
@@ -1161,7 +1161,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                     dropdownItem1.Text = dropInfo
                                     dropdownItem1.TextColor3 = Color3.fromRGB(153, 255, 238)
                                     dropdownItem1.TextSize = 14.000
-                                    dropdownItem1.TextXAlignment = Enum.TextXAlignment.Left
+                                    dropdownItem1.TextXAlignment = Enum.TextXAlignment.F1
 
                                     UIListLayout.Parent = dropdownFrame
                                     UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -1201,7 +1201,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                         optionBtn1.Text = "  "..v
                                         optionBtn1.TextColor3 = Color3.fromRGB(120, 200, 187)
                                         optionBtn1.TextSize = 14.000
-                                        optionBtn1.TextXAlignment = Enum.TextXAlignment.Left
+                                        optionBtn1.TextXAlignment = Enum.TextXAlignment.F1
     
                                         UICorner_3.CornerRadius = UDim.new(0, 3)
                                         UICorner_3.Parent = optionBtn1
